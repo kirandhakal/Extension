@@ -58,7 +58,7 @@ if (!site_list.includes(site)) {
         }
 
         #access-denied {
-        
+         font-family: "Aboreto";
             display: block !important;
             color: #fff;
             position: fixed;
