@@ -58,14 +58,14 @@ if (!site_list.includes(site)) {
         }
 
         #access-denied {
-            font-family: "Aboreto";
+        
             display: block !important;
             color: #fff;
             position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 80px;
+            font-size: 100px;
             font-weight: bold;
             z-index: 999999999999;
         }
