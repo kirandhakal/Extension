@@ -1,0 +1,6 @@
+ytd-rich-section-renderer, /* Trending */
+ytd-guide-section-renderer, /* Sidebar non-edu sections */
+ytd-reel-shelf-renderer, /* Shorts */
+ytd-shelf-renderer { /* Unrelated video rows */
+    display: none !important;
+}

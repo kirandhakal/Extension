@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Edu Filter",
+    "version": "1.0",
+    "description": "Hides non-educational content on YouTube.",
+    "permissions": ["scripting", "activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
+  
